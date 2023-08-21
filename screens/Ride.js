@@ -23,7 +23,6 @@ export default class RideScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      email: firebase.auth().currentUser.email,
       bikeId: "",
       userId: "",
       domState: "normal",
